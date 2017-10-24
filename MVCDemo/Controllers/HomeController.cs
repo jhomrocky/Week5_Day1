@@ -10,6 +10,7 @@ namespace MVCDemo.Controllers
     {
         public ActionResult Index()
         {
+            //insert code here, then "return View();" sends to controller
             return View();
         }
 
