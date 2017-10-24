@@ -10,21 +10,7 @@ namespace MVCDemo.Controllers
     {
         public ActionResult Index()
         {
-            //insert code here, then "return View();" sends to controller
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            //insert method code here, then "return View();" sends to controller
             return View();
         }
     }
